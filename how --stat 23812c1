@@ -1,0 +1,162 @@
+[33mcommit b44047bd4b3b1a7f33944fef1f3b11b323c8c6a6[m
+Author: caca53 <azizahrissanur@gmail.com>
+Date:   Sun Sep 27 18:19:58 2026 +0700
+
+    Add project files
+
+ .../1.2 Variables and DataTypes/1-Scalar.py        |    0
+ .../1.2 Variables and DataTypes/2-String.py        |    0
+ .../1.2 Variables and DataTypes/3-Number.py        |    0
+ .../1.2 Variables and DataTypes/Output1-Scalar.png |  Bin
+ .../1.2 Variables and DataTypes/Output2-String.png |  Bin
+ .../1.2 Variables and DataTypes/Output3-Number.png |  Bin
+ .../1.3 Control Flow/1-IfElifElse.py               |    0
+ .../1.3 Control Flow/2-ForLoops.py                 |    0
+ .../1.3 Control Flow/3-WhileLoops.py               |    0
+ .../1.3 Control Flow/Output1-IfElifElse.png        |  Bin
+ .../1.3 Control Flow/Output2-ForLoops.png          |  Bin
+ .../1.3 Control Flow/Output3-WhileLoops.png        |  Bin
+ .../1.4 Functions/1-DefiningFunctions.py           |    0
+ .../1.4 Functions/2-ArgAndKwargs.py                |    0
+ .../1.4 Functions/3-LambdaFunctions.png            |  Bin
+ .../1.4 Functions/3-LambdaFunctions.py             |    0
+ .../1.4 Functions/Output1-DefiningFunctions.png    |  Bin
+ .../1.4 Functions/Output2-ArgAndKwargs.png         |  Bin
+ .../Output-ScopeAnd Closures.png                   |    0
+ .../1.5 Scope and Closures/ScopeAnd Closures.py    |    0
+ .../1.6 ExceptionHandling/ExceptionHandling.py     |    0
+ .../Output-ExceptionHandling.png                   |  Bin
+ .../1.7 Exercises/1.7 Exercise.py                  |    0
+ .../2.1 Lists/Lists.py                             |    0
+ .../2.1 Lists/Output-Lists.png                     |  Bin
+ .../2.2 Dictionaries/1-Dictionaries.png            |  Bin
+ .../2.2 Dictionaries/1-Dictionaries.py             |    0
+ .../2-NestedDictsAndDefaultValues.png              |  Bin
+ .../2-NestedDictsAndDefaultValues.py               |    0
+ .../2.3 Sets/Output-Sets.png                       |  Bin
+ .../2.3 Sets/Sets.py                               |    0
+ .../2.4 Tuples/Output-Tuples.png                   |  Bin
+ .../2.4 Tuples/Tuples.py                           |    0
+ .../2.5 Comprehensions/1-ListComprehensions.py     |    0
+ .../2-DictAndSetComprehension.py                   |    0
+ .../Output1-ListComprehensions.png                 |  Bin
+ .../Output2-DictAndSetComprehension.png            |  Bin
+ .../2.6 Generator/Generator.py                     |    0
+ .../2.6 Generator/Output-Generator.png             |  Bin
+ .../2.7 Exercises/2.7 Exercises.py                 |    0
+ .../2.7 Exercises/Output.png                       |  Bin
+ .../3.1 Classes and Objects.py                     |    0
+ .../Module 3 - OOP & Modules}/3.2 Inheritance.py   |    0
+ .../Module 3 - OOP & Modules}/3.3 Decorators.py    |    0
+ .../3.3 Parametrised Decorators.py                 |    0
+ .../Module 3 - OOP & Modules}/3.4 Dataclasses.py   |    0
+ .../3.5 Modules and Packages.py                    |    0
+ .../3.6 Module 03 Exercises.py                     |    0
+ .../Module 3 - OOP & Modules}/Output3-1.png        |  Bin
+ .../Module 3 - OOP & Modules}/Output3-2.png        |  Bin
+ .../Module 3 - OOP & Modules}/Output3-31.png       |  Bin
+ .../Module 3 - OOP & Modules}/Output3-32.png       |  Bin
+ .../Module 3 - OOP & Modules}/Output3-4.png        |  Bin
+ .../Module 3 - OOP & Modules}/Output3-5.png        |  Bin
+ .../Module 3 - OOP & Modules}/Output3-6.png        |  Bin
+ .../Module 4 - FileIO & APIs}/4.1 CSV.py           |    0
+ .../Module 4 - FileIO & APIs}/4.1 JSON.py          |    0
+ .../4.1 Working with Files.py                      |    0
+ .../Module 4 - FileIO & APIs}/4.2 Async Await.py   |    0
+ .../4.2 Simulating LLM API Calls.py                |    0
+ .../4.3 Environment Variables and Secrets.py       |    0
+ .../4.4 Module 04 Exercises.py                     |    0
+ .../Module 4 - FileIO & APIs}/Output4-1-1.png      |  Bin
+ .../Module 4 - FileIO & APIs}/Output4-1-2.png      |  Bin
+ .../Module 4 - FileIO & APIs}/Output4-1-3.png      |  Bin
+ .../Module 4 - FileIO & APIs}/Output4-2-1.png      |  Bin
+ .../Module 4 - FileIO & APIs}/Output4-2-2.png      |  Bin
+ .../Module 4 - FileIO & APIs}/Output4-2-4.png      |  Bin
+ .../5.1 Numpy/1-Arrays and Dtypes.py               |    0
+ .../5.1 Numpy/2-Cosine Similarity.py               |    0
+ .../5.1 Numpy/3-Shape Reshape indexing.py          |    0
+ .../5.1 Numpy/Output5-1-1.png                      |  Bin
+ .../5.1 Numpy/Output5-1-2.png                      |  Bin
+ .../5.1 Numpy/Output5-1-3.png                      |  Bin
+ .../5.2 Pandas/1-Cleaning and Transforming.py      |    0
+ .../2-Creating and Inspecting DataFrame.py         |    0
+ .../5.2 Pandas/3-GroupBy and Aggregation.py        |    0
+ .../5.2 Pandas/4-Selection and Filtering.py        |    0
+ .../5.2 Pandas/Output5-2-1.png                     |  Bin
+ .../5.2 Pandas/Output5-2-2.png                     |  Bin
+ .../5.2 Pandas/Output5-2-3.png                     |  Bin
+ .../5.2 Pandas/Output5-2-4.png                     |  Bin
+ .../5.3 Mini Project.py                            |    0
+ .../5.4 Module 05 Exercises.py                     |    0
+ .../Module 5 - Python for Data}/Output5-3.png      |  Bin
+ .../Module 5 - Python for Data}/Output5-4-1.png    |  Bin
+ .../Module 5 - Python for Data}/Output5-4-2.png    |  Bin
+ .../6.1 Setting Up.py                              |    5 [32m+[m
+ .../6.2 Basic message call.png                     |  Bin [31m0[m -> [32m81445[m bytes
+ .../6.2 Basic message call.py                      |   18 [32m+[m
+ .../6.2 Multi-turn conversation.png                |  Bin [31m0[m -> [32m57548[m bytes
+ .../6.2 Multi-turn conversation.py                 |   40 [32m+[m
+ .../6.2 Stream responses.png                       |  Bin [31m0[m -> [32m59527[m bytes
+ .../6.2 Stream responses.py                        |   17 [32m+[m
+ .../6.2 The Antropic SDK.png                       |  Bin [31m0[m -> [32m31441[m bytes
+ .../6.2 The Antropic SDK.py                        |   25 [32m+[m
+ .../6.3 Basic message call.png                     |  Bin [31m0[m -> [32m61685[m bytes
+ .../6.3 Basic message call.py                      |   17 [32m+[m
+ .../6.3 Stream with OpenAI.png                     |  Bin [31m0[m -> [32m31579[m bytes
+ .../6.3 Stream with OpenAI.py                      |   20 [32m+[m
+ .../6.4 Anthropic tool calling.png                 |  Bin [31m0[m -> [32m29563[m bytes
+ .../6.4 Anthropic tool calling.py                  |  102 [32m++[m
+ .../6.4 OpenAI tool calling.png                    |  Bin [31m0[m -> [32m28517[m bytes
+ .../6.4 OpenAI tool calling.py                     |   96 [32m++[m
+ .../6.5 Vision - Image as Input.png                |  Bin [31m0[m -> [32m29575[m bytes
+ .../6.5 Vision - Image as Input.py                 |   27 [32m+[m
+ .../6.6 Token Management.png                       |  Bin [31m0[m -> [32m19206[m bytes
+ .../6.6 Token Management.py                        |   61 [32m+[m
+ .../6.7 Building a Provider-Agnostic Client.png    |  Bin [31m0[m -> [32m33218[m bytes
+ .../6.7 Building a Provider-Agnostic Client.py     |   99 [32m++[m
+ .../6.8 Module 06 Exercises.png                    |  Bin [31m0[m -> [32m20905[m bytes
+ .../6.8 Module 06 Exercises.py                     |  380 [32m+++++++[m
+ .../Module 06 - OpenAI & Antropic APIs/contoh.py   |   38 [32m+[m
+ .../Module 06 - OpenAI & Antropic APIs/desktop.ini |   13 [32m+[m
+ .../7.2 System Prompts.png                         |  Bin [31m0[m -> [32m46142[m bytes
+ .../7.2 System Prompts.py                          |   77 [32m++[m
+ .../7.3 Few-Shot Prompting.png                     |  Bin [31m0[m -> [32m31329[m bytes
+ .../7.3 Few-Shot Prompting.py                      |   44 [32m+[m
+ .../7.4 Chain-of-Thought Prompitng.png             |  Bin [31m0[m -> [32m43450[m bytes
+ .../7.4 Chain-of-Thought Prompitng.py              |   42 [32m+[m
+ .../7.4 Structured coT with XML rags.png           |  Bin [31m0[m -> [32m16465[m bytes
+ .../7.4 Structured coT with XML rags.py            |   53 [32m+[m
+ .../7.5 Approach 1 Prompt-enforced JSON.png        |  Bin [31m0[m -> [32m46396[m bytes
+ .../7.5 Approach 1 Prompt-enforced JSON.py         |   82 [32m++[m
+ .../7.5 Approach 2 OpenAI JSON mode.png            |  Bin [31m0[m -> [32m17155[m bytes
+ .../7.5 Approach 2 OpenAI JSON mode.py             |   32 [32m+[m
+ .../7.6 Prompt Templates.png                       |  Bin [31m0[m -> [32m26982[m bytes
+ .../7.6 Prompt Templates.py                        |   66 [32m++[m
+ .../7.7 Prompt Evaluation.png                      |  Bin [31m0[m -> [32m28180[m bytes
+ .../7.7 Prompt Evaluation.py                       |  113 [32m++[m
+ .../7.8 Module 07 Exercises.png                    |  Bin [31m0[m -> [32m52668[m bytes
+ .../7.8 Module 07 Exercises.py                     |  474 [32m++++++++[m
+ .../Module 07 - Prompt Engineering/desktop.ini     |   10 [32m+[m
+ .../8.2 Anthropic embedding (via Voyage AI).png    |  Bin [31m0[m -> [32m36859[m bytes
+ .../8.2 Anthropic embedding (via Voyage AI).py     |   30 [32m+[m
+ .../8.2 OpenAI embeddings.png                      |  Bin [31m0[m -> [32m16732[m bytes
+ .../8.2 OpenAI embeddings.py                       |   40 [32m+[m
+ .../8.3 Cosine Similarity.png                      |  Bin [31m0[m -> [32m26173[m bytes
+ .../8.3 Cosine Similarity.py                       |   66 [32m++[m
+ .../8.4 Semantic Search - Full Pipeline.png        |  Bin [31m0[m -> [32m60961[m bytes
+ .../8.4 Semantic Search - Full Pipeline.py         |  244 [32m++++[m
+ .../8.5 Chunking Text for Embedding.png            |  Bin [31m0[m -> [32m30409[m bytes
+ .../8.5 Chunking Text for Embedding.py             |  125 [32m+++[m
+ .../8.6 Evaluating Retrieval Quality.png           |  Bin [31m0[m -> [32m22308[m bytes
+ .../8.6 Evaluating Retrieval Quality.py            |  418 [32m+++++++[m
+ .../8.7 Metadata Filtering.png                     |  Bin [31m0[m -> [32m29649[m bytes
+ .../8.7 Metadata Filtering.py                      |  253 [32m+++++[m
+ .../8.8 Module 08 Exercises.png                    |  Bin [31m0[m -> [32m42148[m bytes
+ .../8.8 Module 08 Exercises.py                     | 1173 [32m++++++++++++++++++++[m
+ .../desktop.ini                                    |    8 [32m+[m
+ {temp_txt_test => data/temp_txt_test}/doc1.txt     |    0
+ {temp_txt_test => data/temp_txt_test}/doc2.txt     |    0
+ {temp_txt_test => data/temp_txt_test}/doc3.txt     |    0
+ embedding_cache.db                                 |  Bin [31m0[m -> [32m20480[m bytes
+ gambar.jpg                                         |  Bin [31m0[m -> [32m251262[m bytes
+ 155 files changed, 4308 insertions(+)
